@@ -1,39 +1,179 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#100d0e" />
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+            rel="stylesheet"
+        />
 
         <link rel="stylesheet" href="./assets/css/style.css" />
-        <title>Project</title>
+
+        <title>SILENT — Social Experiment</title>
     </head>
 
     <body>
-        <ul class="center">
-            <li>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-facebook"></i>
-            </li>
-            <li>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-instagram"></i>
-            </li>
-            <li>
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-brands fa-youtube"></i>
-            </li>
-            <li>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-linkedin"></i>
-            </li>
-            <li>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-twitter"></i>
-            </li>
-        </ul>
+        <main>
+            <section class="hero">
+                <div class="hero-bg"></div>
+                <div class="hero-grid"></div>
+
+                <!-- Header -->
+                <header class="header">
+                    <a href="#" class="logo">
+                        <span class="logo-mark"></span>
+                        SILENT<span class="logo-dot">.</span>
+                    </a>
+
+                    <span class="header-caption">
+                        CREATIVE SOCIAL EXPERIENCE
+                    </span>
+
+                    <a href="#social" class="header-link">
+                        FOLLOW THE STORY
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                </header>
+
+                <!-- Main content -->
+                <div class="hero-content">
+                    <div class="hero-copy">
+                        <div class="eyebrow">
+                            <span></span>
+                            YOUR WORLD. YOUR PRESENCE.
+                        </div>
+
+                        <h1>
+                            Make your
+                            <span class="outline-text">presence</span>
+                            <em>unforgettable.</em>
+                        </h1>
+
+                        <p class="hero-description">
+                            A little confidence. A little attitude. And a whole
+                            lot of personality. Find us where the conversation
+                            happens.
+                        </p>
+
+                        <a href="#social" class="discover-btn">
+                            <span>EXPLORE OUR SOCIALS</span>
+                            <i
+                                class="fa-solid fa-arrow-up-right-from-square"
+                            ></i>
+                        </a>
+
+                        <div class="copy-index">
+                            <span>01</span>
+                            <span class="index-line"></span>
+                            <span>05</span>
+                        </div>
+                    </div>
+
+                    <!-- Decorative circle -->
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+
+                    <!-- Woman image -->
+                    <div class="model-wrap">
+                        <div class="model-glow"></div>
+
+                        <div class="model-label">
+                            <span>01 / ICONIC</span>
+                            <span>EST. 2026</span>
+                        </div>
+
+                        <img
+                            src="./assets/images/item.png"
+                            alt="Woman"
+                            class="model-image"
+                        />
+
+                        <div class="model-stamp">
+                            <span>BE</span>
+                            <span>SEEN</span>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social section -->
+                <div class="social-section" id="social">
+                    <div class="social-intro">
+                        <span class="social-number">01 — 05</span>
+
+                        <div>
+                            <h2>Stay <em>connected.</em></h2>
+                            <p>FOLLOW THE RED ENERGY</p>
+                        </div>
+                    </div>
+
+                    <ul class="social-list">
+                        <li style="--social-color: #1877f2">
+                            <a href="#" aria-label="Facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <span class="social-tooltip">Facebook</span>
+                        </li>
+
+                        <li style="--social-color: #e4405f">
+                            <a href="#" aria-label="Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <span class="social-tooltip">Instagram</span>
+                        </li>
+
+                        <li style="--social-color: #ff0033">
+                            <a href="#" aria-label="YouTube">
+                                <i class="fa-brands fa-youtube"></i>
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            <span class="social-tooltip">YouTube</span>
+                        </li>
+
+                        <li style="--social-color: #0a66c2">
+                            <a href="#" aria-label="LinkedIn">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <span class="social-tooltip">LinkedIn</span>
+                        </li>
+
+                        <li style="--social-color: #ffffff">
+                            <a href="#" aria-label="X">
+                                <i class="fa-brands fa-x-twitter"></i>
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                            <span class="social-tooltip">X / Twitter</span>
+                        </li>
+                    </ul>
+
+                    <div class="social-footer">
+                        <span>LET'S MAKE SOMETHING ICONIC.</span>
+                        <span class="footer-indicator">
+                            <span></span>
+                            ONLINE
+                        </span>
+                    </div>
+                </div>
+
+                <div class="hero-bottom">
+                    <span>INDEPENDENT MIND. ICONIC STYLE.</span>
+                    <span>© RED SOCIAL CLUB 2026</span>
+                </div>
+            </section>
+        </main>
 
         <script src="./assets/js/main.js"></script>
     </body>
