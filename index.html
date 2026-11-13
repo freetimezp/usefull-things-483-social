@@ -65,8 +65,12 @@
                             happens.
                         </p>
 
-                        <a href="#social" class="discover-btn">
-                            <span>EXPLORE OUR SOCIALS</span>
+                        <a
+                            href="#archive"
+                            class="discover-btn"
+                            id="openArchive"
+                        >
+                            <span>ENTER THE EXPERIENCE</span>
                             <i
                                 class="fa-solid fa-arrow-up-right-from-square"
                             ></i>
@@ -172,6 +176,175 @@
                     <span>INDEPENDENT MIND. ICONIC STYLE.</span>
                     <span>© RED SOCIAL CLUB 2026</span>
                 </div>
+            </section>
+
+            <!--=============== SILENT ARCHIVE ===============-->
+            <section class="archive" id="archive" aria-hidden="true">
+                <div class="archive-bg"></div>
+                <div class="archive-noise"></div>
+
+                <!-- Archive header -->
+                <header class="archive-header">
+                    <a href="#" class="archive-logo">SILENT<span>.</span></a>
+
+                    <div class="archive-header-center">
+                        <span class="archive-live"></span>
+                        SOCIAL FREQUENCIES / 2026
+                    </div>
+
+                    <button
+                        class="archive-close"
+                        id="closeArchive"
+                        aria-label="Close archive"
+                    >
+                        <span>CLOSE</span>
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </header>
+
+                <!-- Main archive content -->
+                <div class="archive-content">
+                    <!-- Left information -->
+                    <div class="archive-info">
+                        <div class="archive-index">
+                            <span>COLLECTION</span>
+                            <span id="archiveIndex">01 / 05</span>
+                        </div>
+
+                        <div class="archive-heading">
+                            <span class="archive-kicker" id="archiveKicker">
+                                THE VISUAL DIARY
+                            </span>
+
+                            <h2 id="archiveTitle">Instagram<span>.</span></h2>
+
+                            <p id="archiveDescription">
+                                A visual world without boundaries. Discover our
+                                moments, stories and creative expressions.
+                            </p>
+                        </div>
+
+                        <div class="archive-meta">
+                            <div>
+                                <span>PLATFORM</span>
+                                <strong id="archivePlatform">INSTAGRAM</strong>
+                            </div>
+
+                            <div>
+                                <span>FREQUENCY</span>
+                                <strong id="archiveFrequency">DAILY</strong>
+                            </div>
+                        </div>
+
+                        <a
+                            href="#"
+                            class="archive-visit"
+                            id="archiveVisit"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span>VISIT PLATFORM</span>
+                            <i
+                                class="fa-solid fa-arrow-up-right-from-square"
+                            ></i>
+                        </a>
+
+                        <div class="archive-navigation">
+                            <button
+                                id="archivePrev"
+                                aria-label="Previous platform"
+                            >
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </button>
+
+                            <div class="archive-progress">
+                                <span id="archiveProgress"></span>
+                            </div>
+
+                            <button id="archiveNext" aria-label="Next platform">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Right visual -->
+                    <div class="archive-visual">
+                        <div class="visual-top">
+                            <span>FIG. <b id="visualNumber">001</b></span>
+                            <span id="visualCategory">VISUAL CULTURE</span>
+                        </div>
+
+                        <div class="visual-frame">
+                            <div class="visual-orbit"></div>
+
+                            <div class="visual-image-wrap" id="visualImageWrap">
+                                <img
+                                    src="./assets/images/item.png"
+                                    alt="SILENT editorial fashion portrait"
+                                    id="archiveImage"
+                                />
+                            </div>
+
+                            <div class="visual-caption">
+                                <span>SILENT / STUDIO</span>
+                                <span id="visualCaption"
+                                    >BEYOND THE ORDINARY</span
+                                >
+                            </div>
+
+                            <div class="visual-stamp" id="visualStamp">
+                                <span>NO</span>
+                                <strong>LIMITS</strong>
+                                <i class="fa-solid fa-asterisk"></i>
+                            </div>
+                        </div>
+
+                        <div class="visual-bottom">
+                            <span>THE ART OF BEING DIFFERENT.</span>
+                            <span>51°30'26.4"N</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom tabs -->
+                <footer class="archive-footer">
+                    <div class="archive-footer-label">
+                        <span>SELECT YOUR FREQUENCY</span>
+                        <span>01 — 05</span>
+                    </div>
+
+                    <nav class="archive-tabs" aria-label="Social platforms">
+                        <button class="archive-tab active" data-index="0">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span>Instagram</span>
+                            <small>01</small>
+                        </button>
+
+                        <button class="archive-tab" data-index="1">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <span>Facebook</span>
+                            <small>02</small>
+                        </button>
+
+                        <button class="archive-tab" data-index="2">
+                            <i class="fa-brands fa-youtube"></i>
+                            <span>YouTube</span>
+                            <small>03</small>
+                        </button>
+
+                        <button class="archive-tab" data-index="3">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                            <small>04</small>
+                        </button>
+
+                        <button class="archive-tab" data-index="4">
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <span>Twitter / X</span>
+                            <small>05</small>
+                        </button>
+                    </nav>
+                </footer>
             </section>
         </main>
 
